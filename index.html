@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="namecontainer">
+        <input type="text" id="Name" placeholder="Enter your name here.">
+    </div>
+    <div id="ScoreContainer">
+        <p id="ScoreTxt">0 Clicks</p>
+        <p id="cps">0 Clicks per second</p>
+        <p id="cp">1 Clickpower</p>
+    </div>
+    <div class="statscontainer">
+            
+    </div>
+    <button class="ClickBtn" onclick="add(clickpower)"></button>
+    <div class="upgrade-container">
+        <p class="alltimeclicks">Clicks (All time) 0</p>
+        <p class="clicksthisascension">Clicks (This prestige) 0</p>
+        <button class="cursor" onclick="buycursor()">
+            <h2>Cursor</h2>
+            <h3>Cost: <span id="cursorprice">10</span> clicks</h3>
+        </button>
+        
+        <button class="cursor" onclick="buybank()">
+            <h2>Cursor</h2>
+            <h3>Cost: <span id="cursorprice">10</span> clicks</h3>
+        </button>
+        <div class="prestige-container">
+            <button onclick="prestige();">Prestige</button>
+        </div>
+        <button class="Save" onclick="save()">
+            Save
+        </button><button class="Load" onclick="load()">
+            Load
+        </button>
+        </div>
+</body>
+</html>
