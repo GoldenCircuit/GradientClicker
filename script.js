@@ -7,6 +7,7 @@ let alltimeclicks = 0;
 let clicksthisprestige = 0;
 let prestigelvl = 0;
 const name = document.getElementById("Name");
+alert("It is reccomended that you visit this website in fullscreen! :)")
 function add(amount) {
     clicks+= amount;
     checkClickCount();
